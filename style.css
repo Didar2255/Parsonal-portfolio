@@ -4,11 +4,12 @@ body{
 }
 h1{
     
-    font-size: 50px;
+    font-size: 80px;
     
 }
 .flaxible-continer{
     display: flex;
+    margin-bottom: 100px;
 
 }
 .Orenge{
@@ -16,10 +17,10 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding: 40px;
+    padding-left: 25px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .Button{
     text-decoration: none;
@@ -33,4 +34,40 @@ h1{
 .banar{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experince-item{
+    width: 45%;
+    margin-left: 5%;
+    margin-right:5%;
+    box-shadow: 10px 10px 40px #504c4c;
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#Front{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue,orange);
+   border-image-slice: 1;
+   
+}
+#Baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(53, 230, 8),orange);
+    border-image-slice: 1; 
+}
+footer{
+    text-align: center;
+}
+.Text{
+    font-size: 50px;
 }
